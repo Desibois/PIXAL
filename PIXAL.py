@@ -4,7 +4,7 @@ import threading
 import google.generativeai as genai
 import webbrowser
 
-genai.configure(api_key="AIzaSyDGTng9w9R7nMMBWH5kho9fKBlyZPhxJLI")
+genai.configure(api_key="")
 config = {
     "temperature": 0.7,
     "top_p": 1,
