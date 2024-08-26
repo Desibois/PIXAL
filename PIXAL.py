@@ -32,7 +32,7 @@ def listen():
                 text = text.lower()
                 return text
         
-        except sr.UnknownValueError() or TypeError:
+        except Exception:
             rec = sr.Recognizer()
             continue
 
